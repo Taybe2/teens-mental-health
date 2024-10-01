@@ -1,0 +1,71 @@
+
+
+/* General */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Callout Section */
+.callout-container {
+    height: 700px;
+    background: url('../images/calming-image.webp') no-repeat center right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    position: relative;
+}
+.callout {
+    background: transparent;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Buttons */
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--blue {
+    color: white;
+    background-color: #0073bb;
+    border-color: #0073bb;
+}
+
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+    background-color: #0187db;
+    border-color: #0187db;
+    color: #fff;
+}
+
+/* Media query large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    /* Callout Section */
+    .callout-container {
+        justify-content: right;
+    }
+    .callout {
+        text-align: right;
+    }
+}
+
+/* Media query: desktops and large (1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Callout Section */
+    .callout {
+        margin-right: 20%;
+    }
+}
