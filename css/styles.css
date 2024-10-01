@@ -29,6 +29,12 @@
     text-align: center;
 }
 
+/* Container wrappers */
+.wrapper-purple {
+    background-color: #cfa194;
+    color: #fff;
+}
+
 /* Content containers */
 .content-container {
     padding-bottom: 25px;
