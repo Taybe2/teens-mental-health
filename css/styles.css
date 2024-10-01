@@ -53,13 +53,16 @@
 }
 
 /* Container-benefits */
+.icons > div {
+    margin-bottom: 3rem;
+}
 .icons i {
     font-size: 2em;
     margin-right: 0.5rem;
     vertical-align: middle
 }
 .icons p {
-    display: inline-block;
+    margin: auto;
 }
 
 /* Buttons */
