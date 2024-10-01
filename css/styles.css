@@ -53,6 +53,9 @@
 }
 
 /* Container-benefits */
+.icons {
+    margin-top: 3em;
+}
 .icons > div {
     margin-bottom: 3rem;
 }
