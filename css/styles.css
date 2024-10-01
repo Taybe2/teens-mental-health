@@ -29,6 +29,23 @@
     text-align: center;
 }
 
+/* Content containers */
+.content-container {
+    padding-bottom: 25px;
+    padding-top: 45px;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    margin: 1.5rem auto 2.5rem;
+}
+
 /* Buttons */
 .btn--cta {
     font-weight: bold;
