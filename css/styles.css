@@ -46,6 +46,16 @@
     margin: 1.5rem auto 2.5rem;
 }
 
+/* Container-benefits */
+.icons i {
+    font-size: 2em;
+    margin-right: 0.5rem;
+    vertical-align: middle
+}
+.icons p {
+    display: inline-block;
+}
+
 /* Buttons */
 .btn--cta {
     font-weight: bold;
