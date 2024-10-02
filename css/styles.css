@@ -12,7 +12,7 @@
 /* Callout Section */
 .callout-container {
     height: 700px;
-    background: url('../images/calming-image.webp') no-repeat center right fixed;
+    background: url('../images/calming-image.webp') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
