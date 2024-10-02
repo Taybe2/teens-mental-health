@@ -67,8 +67,8 @@
     margin: auto;
 }
 
-/* Container Health Tips */
-.container-health-tips .card {
+/* Cards */
+.card {
     border: 1px solid rgb(207, 161, 148);
     border-radius: 0;
 }
@@ -106,7 +106,7 @@
     .callout {
         text-align: right;
     }
-    .container-health-tips .card-group + .card-group .card {
+    .card-group + .card-group .card {
         border-top-width: 0;
     }
 }
