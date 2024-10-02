@@ -111,6 +111,13 @@
     }
 }
 
+/* Media query tablets (768px and up) */
+@media screen and (min-width: 768px) {
+    .callout-container {
+        background: url('../images/calming-image.webp') no-repeat center right fixed;
+    }
+}
+
 /* Media query: desktops and large (1200px and up) */
 @media screen and (min-width: 1200px) {
     /* Callout Section */
